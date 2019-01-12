@@ -1,0 +1,31 @@
+// import React, { Component } from 'react';
+// class Hello extends Component{
+//     render() {
+//         return (
+//         <div className="f1 tc">
+//             <h1>Hello App</h1>
+//             <p>{this.props.greeting}</p>
+//         </div>
+//         );
+//     }
+// }
+
+import React from 'react';
+const Hello = (props) => {
+    return (
+        <div className="f1 tc">
+            <h1>Hello App</h1>
+            <p>{props.greeting}</p>
+        </div>);
+}
+//     render() {
+//         return (
+//         <div className="f1 tc">
+//             <h1>Hello App</h1>
+//             <p>{this.props.greeting}</p>
+//         </div>
+//         );
+//     }
+// }
+
+export default Hello;
